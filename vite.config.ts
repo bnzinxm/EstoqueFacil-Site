@@ -10,5 +10,4 @@ export default defineConfig({
   build: {
     outDir: 'build',  // Garante que a pasta de saída seja chamada 'build'
   },
-  base: '/EstoqueFacil/',  // Definindo a base para o GitHub Pages
 });
