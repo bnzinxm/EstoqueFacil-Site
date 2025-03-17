@@ -7,4 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    outDir: 'build',  // Garante que a pasta de saída seja chamada 'build'
+  },
+  base: '/EstoqueFacil/',  // Definindo a base para o GitHub Pages
 });
