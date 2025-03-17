@@ -6,7 +6,7 @@ import SearchPage from "./pages/Search/SearchPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/EstoqueFacil-Site">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/login" element={<LoginPage />} />
